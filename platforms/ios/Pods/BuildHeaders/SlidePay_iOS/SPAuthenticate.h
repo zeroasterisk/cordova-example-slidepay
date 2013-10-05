@@ -1,0 +1,1 @@
+../../SlidePay_iOS/SPAuthenticate.h
