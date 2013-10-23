@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="org.apache.cordova.slidepay"
+  version="0.2.3">
+
+  <name>SlidePay</name>
+  <description>Cordova SlidePay Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,slidepay,information</keywords>
+
+  <js-module src="www/slidepay.js" name="slidepay">
+    <!--
+    <clobbers target="navigator.connection" />
+    <clobbers target="navigator.slidepay.connection" />
+    -->
+  </js-module>
+
+  <!-- firefoxos -->
+  <platform name="firefoxos">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Slidepay">
+        <param name="firefoxos-package" value="Slidepay" />
+      </feature>
+    </config-file>
+    <js-module src="src/firefoxos/SlidepayProxy.js" name="SlidepayProxy">
+      <runs />
+    </js-module>
+  </platform>
+
+  <!-- android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Slidepay">
+        <param name="android-package" value="org.apache.cordova.slidepay.Slidepay"/>
+      </feature>
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    </config-file>
+
+    <source-file src="src/android/Slidepay.java" target-dir="src/org/apache/cordova/slidepay" />
+
+  </platform>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Slidepay">
+        <param name="ios-package" value="CDVConnection" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/CDVConnection.h" />
+    <source-file src="src/ios/CDVConnection.m" />
+    <header-file src="src/ios/CDVReachability.h" />
+    <source-file src="src/ios/CDVReachability.m" />
+    <framework src="SystemConfiguration.framework" weak="true" />
+  </platform>
+
+  <!-- blackberry10 -->
+  <platform name="blackberry10">
+    <source-file src="src/blackberry10/index.js" target-dir="Slidepay" />
+    <config-file target="www/config.xml" parent="/widget">
+      <feature name="Slidepay" value="Slidepay"/>
+    </config-file>
+  </platform>
+
+  <!-- wp7 -->
+  <platform name="wp7">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Slidepay">
+        <param name="wp-package" value="Slidepay"/>
+      </feature>
+    </config-file>
+
+    <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Capabilities">
+      <Capability Name="ID_CAP_slidepayING" />
+    </config-file>
+
+    <source-file src="src/wp/Slidepay.cs" />
+  </platform>
+
+  <!-- wp8 -->
+  <platform name="wp8">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Slidepay">
+        <param name="wp-package" value="Slidepay"/>
+      </feature>
+    </config-file>
+
+    <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Capabilities">
+      <Capability Name="ID_CAP_slidepayING" />
+    </config-file>
+
+    <source-file src="src/wp/Slidepay.cs" />
+  </platform>
+
+  <!-- windows8 -->
+  <platform name="windows8">
+    <js-module src="src/windows8/SlidepayInfoProxy.js" name="SlidepayInfoProxy">
+      <merges target="" />
+    </js-module>
+  </platform>
+
+</plugin>
