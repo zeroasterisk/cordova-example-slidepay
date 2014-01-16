@@ -27,8 +27,12 @@
 /Development/Mobile/example-slidepay/platforms/android/assets/www/css/index.css \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/img/logo.png \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/js/index.js \
+/Development/Mobile/example-slidepay/platforms/android/assets/www/js/zepto.min.js \
+/Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.slidepay \
+/Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
+/Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/Connection.js \
 /Development/Mobile/example-slidepay/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js \

@@ -27,6 +27,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        $('#t1').on('click', function(e) { app.slidepayTest(); });
     },
     // deviceready Event Handler
     //
@@ -43,10 +44,17 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        receivedElement.innerHtml('slidepay attempt');
-        SlidePay.go();
-        receivedElement.innerHtml('slidepay attempted');
 
         console.log('Received Event: ' + id);
+    },
+    // test out slidepay
+    slidepayTest: function() {
+        $('#log').append('clicked<br>');
+        var re = slidepay.test(
+          function(a) {  $('#log').append('[cb:success]' + a + '<br>'); },
+          function(a) {  $('#log').append('[cb:error]' + a + '<br>'); },
+        );
+        $('#log').append(re + '<br>');
+        $('#log').append('done<br>');
     }
 };

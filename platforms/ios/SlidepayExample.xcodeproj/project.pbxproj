@@ -50,6 +50,7 @@
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 		21E0A22F7272477DB401E778 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A601C27AAC434DA4AE3E75 /* CDVConnection.m */; };
 		A311B567041F42A498C3A142 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 09637191BB82444BBF95326F /* CDVReachability.m */; };
+		72D9E1AD34654213B9762227 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCB615B73C45ED82A4FFD0 /* CDVDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,8 @@
 		09637191BB82444BBF95326F /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "org.apache.cordova.network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		7D4FEC46D56A4F74BCA558A2 /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		AD049170C3754088A2466049 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DACCB615B73C45ED82A4FFD0 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3BEC7FAFCAC24C35AE9BB20D /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +283,8 @@
 				09637191BB82444BBF95326F /* CDVReachability.m */,
 				7D4FEC46D56A4F74BCA558A2 /* CDVConnection.h */,
 				AD049170C3754088A2466049 /* CDVReachability.h */,
+				DACCB615B73C45ED82A4FFD0 /* CDVDevice.m */,
+				3BEC7FAFCAC24C35AE9BB20D /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = SlidepayExample/Plugins;
@@ -481,6 +486,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				21E0A22F7272477DB401E778 /* CDVConnection.m in Sources */,
 				A311B567041F42A498C3A142 /* CDVReachability.m in Sources */,
+				72D9E1AD34654213B9762227 /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
