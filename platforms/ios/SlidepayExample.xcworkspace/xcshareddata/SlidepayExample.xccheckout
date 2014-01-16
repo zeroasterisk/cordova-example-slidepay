@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85874ABC-307B-4FE1-92BB-09D7C074085D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlidepayExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>632ADE0A-B972-4884-82CF-72CA0CB28656</key>
+		<string>ssh://github.com/zeroasterisk/cordova-plugin-slidepay.git</string>
+		<key>9CA14F7D-4A7D-497E-A732-44ED7D51D049</key>
+		<string>ssh://github.com/zeroasterisk/cordova-example-slidepay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/SlidepayExample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>632ADE0A-B972-4884-82CF-72CA0CB28656</key>
+		<string>../../../../cordova-plugin-slidepay</string>
+		<key>9CA14F7D-4A7D-497E-A732-44ED7D51D049</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zeroasterisk/cordova-example-slidepay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CA14F7D-4A7D-497E-A732-44ED7D51D049</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>632ADE0A-B972-4884-82CF-72CA0CB28656</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cordova-plugin-slidepay</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CA14F7D-4A7D-497E-A732-44ED7D51D049</string>
+			<key>IDESourceControlWCCName</key>
+			<string>example-slidepay</string>
+		</dict>
+	</array>
+</dict>
+</plist>
