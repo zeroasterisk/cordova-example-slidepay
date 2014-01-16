@@ -52,7 +52,7 @@ var app = {
         $('#log').append('clicked<br>');
         var re = slidepay.test(
           function(a) {  $('#log').append('[cb:success]' + a + '<br>'); },
-          function(a) {  $('#log').append('[cb:error]' + a + '<br>'); },
+          function(a) {  $('#log').append('[cb:error]' + a + '<br>'); }
         );
         $('#log').append(re + '<br>');
         $('#log').append('done<br>');

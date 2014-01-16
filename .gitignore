@@ -1,5 +1,9 @@
 tmp/*
 !empty
+.staging
+platforms/android/bin
+build.prop
+
 
 # application / coding temp files
 .sass-cache
