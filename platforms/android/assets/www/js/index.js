@@ -43,8 +43,10 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+        receivedElement.innerHtml('slidepay attempt');
+        SlidePay.go();
+        receivedElement.innerHtml('slidepay attempted');
 
         console.log('Received Event: ' + id);
     }
 };
-/* -test - */
